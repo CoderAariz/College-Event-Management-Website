@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url("images/homepage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.sdetail label{
+    float: left;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin:5px 0px 5px 0px;
+    font-size: x-large;
+    font-weight: bold;
+    position: absolute;
+    margin-top:15px;
+    left:470px;
+}
+.sdetail input[type=text],input[type=email],textarea{
+    width: 200px;
+    height: 15px;
+    color: white;
+    display: inline-block;
+    position: relative;
+    margin: 5px 0px 5px 0px;
+    margin-top:15px;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+    border:5px solid rgb(104,103,103);
+    border-radius: 10px;
+    resize: vertical;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.4);
+    left: 520px;
+}
+.sdetail option{
+    width: 200px;
+    height: 15px;
+    color: white;
+    display: inline-block;
+    position: relative;
+    margin: 5px 0px 5px 0px;
+    margin-top:15px;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+    border:5px solid rgb(104,103,103);
+    border-radius: 10px;
+    resize: vertical;
+    box-sizing: border-box;
+    background-color: rgba(199, 23, 23, 0.4);
+    left:520px;
+}
+.sdetail select,input[type=number]{
+    width: 200px;
+    height:40px;
+    padding:0px 0px 0px 10px;
+    color:white;
+    display: inline-block;
+    position: relative;
+    margin: 5px 0px 5px 0px;
+    margin-top:15px;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    border:5px solid rgb(104, 103, 103);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    left:520px;
+}
+.submit input[type=submit] {
+    background-color: rgb(104, 103, 103);
+    color: white;
+    padding: 9px 20px;
+    position: absolute;
+    border: none;
+    height: 35px;
+    width: 90px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    margin: 20px 0px 5px 0px;
+    left:620px;
+}
+.field{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 10px;
+    width:1000px;
+    border: 5px solid rgb(131, 127, 131);
+    border-radius: 10px;
+    margin: auto;
+}
+.foot
+{
+    text-align: center;
+    color: white;
+    background-color:  #f9c449;
+    width: 100%;
+    height:200px;
+}
+.fb
+{
+    height: 60px;
+    border-radius: 50px;
+}
+footer>h6
+{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer>h5
+{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer>p
+{
+    color:white;
+    font-size: 20px;
+    font-family: Georgia;;
+}

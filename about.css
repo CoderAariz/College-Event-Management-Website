@@ -1,0 +1,91 @@
+body{
+    background-image: url('images/homepage.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.heading{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-decoration: none;
+    margin:0px 0px 0px 5px;
+    display:inline-block;
+    align-content: center;
+    text-align: center;
+    font-size: 130%;
+    padding: 20px 16px;
+}
+.nav{
+    background-color:#333;
+    top:30px;
+    left:0;
+    width:100%;
+    overflow: hidden;
+    position: fixed;
+}
+.nav a{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-decoration: none;
+    margin:0px 0px 0px 20px;
+    display:inline-block;
+    align-content: center;
+    text-align: center;
+    font-size: 110%;
+    padding: 20px 16px;
+}
+.nav a:hover{
+    background-color: black;
+    color:white;
+}
+.content{
+    color:whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: x-large;
+    padding: 16px;
+    margin-top: 30px;
+    height: 500px;
+}
+
+.head{
+    font-size:300%;
+    text-align:center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.foot
+{
+    text-align: center;
+    color: white;
+    background-color: #f9c449;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    height:200px;
+}
+.fb
+{
+    height: 60px;
+    border-radius: 50px;
+}
+footer>h6
+{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer>h5
+{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer>p
+{
+    color:white;
+    font-size: 20px;
+    font-family: Georgia;;
+}

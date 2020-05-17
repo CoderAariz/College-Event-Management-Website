@@ -1,0 +1,132 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(209, 209, 209);
+  /*background-image: url('images/homepage.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;*/
+}
+.heading{
+  color: #9600ff;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-size: 30px;
+  height: 100px;
+  text-align: center;
+}
+.field{
+  background-image: url('images/log_background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:500px;
+  height:750px;
+  margin-left:10px;
+  border: 5px solid rgb(103,103,104);
+  border-radius: 10px;
+  margin:auto;
+}
+
+.log label{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+  margin:35px 0px 0px 0px;
+  left:39%;
+}
+
+#remember{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+  margin:35px 0px 20px 0px;
+  left:32%;
+}
+
+.log input[type=email],input[type=password]{
+  width:270px;
+  height: 30px;
+  color:rgb(122, 120, 120);
+  background-color: whitesmoke;
+  display: inline-block;
+  position: relative;
+  margin:15px 0px 16px 0px;
+  font-size:large;
+  padding: 20px;
+  border: 5px solid rgb(104, 103, 103);
+  border-radius: 30px;
+  resize: vertical;
+  box-sizing: border-box;
+  text-align: center;
+  /*background-color: rgba(0,0,0,0.3);*/
+  left:24%;
+
+}
+button{
+  background-color: rgb(255, 69, 0);
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  border: none;
+  position: relative;
+  margin: 20px 0px 0px 0px;
+  font-weight: bolder;
+  cursor: pointer;
+  border-radius: 5px;
+  height:35px;
+  width: 250px;
+  left:26%;
+  top:24px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.registerbtn{
+  position: relative;
+  padding: 5px 18px;
+  margin: 5px 0px 0px 0px;
+  background-color: #c90f4d;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  height:35px;
+  width: 250px;
+  left:26%;
+}
+
+.cancelbtn {
+  position: relative;
+  padding: 10px 18px;
+  margin: 20px 0px 0px 0px;
+  background-color: #f71b0b;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  height:35px;
+  width: 250px;
+  left:26%;
+}
+
+.cancelbtn a{
+  font-weight: bolder;
+  color: white;
+  text-decoration: none;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}

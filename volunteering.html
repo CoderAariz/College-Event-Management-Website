@@ -1,0 +1,104 @@
+<HTML>
+	<HEAD>
+	<link href="volunteer.css" type="text/css" rel="stylesheet">
+	<script language="javascript" type="text/javascript">
+			function validate()
+			{
+    			var uname=document.getElementById("t1").value;
+				var unamepattern=/^[a-zA-Z]{1,}$/;
+				var ID=document.getElementById("t2").value;
+				var idlen=ID.length;
+				var mail=document.getElementById("t3").value;
+				var contact=document.getElementById("t4").value;
+				var conlen=contact.length;
+				if(uname=="")
+				{
+					alert("please enter user name!");
+       				return false;
+				}
+				else if(!unamepattern.test(uname))
+				{
+					alert("Only Alphabets are allowed !");
+					return false;
+				}
+				else if(ID=='')
+				{
+					alert("Please! enter the student id");
+					return false;
+				}
+				else if(idlen!=7)
+				{
+					alert("Id must be of 7 numbers");
+					return false;
+				}
+				else if(mail=='')
+				{
+					alert("Please! provide email_id");
+					return false;
+				}
+				else if(contact=="")
+				{
+					alert("Please provide contact no");
+       				return false;
+				}
+				else if(conlen!=10)
+				{
+					alert("Contact no must be of 10 numbers");
+					return false;
+				}
+				
+				
+
+				return true;
+			}
+	</SCRIPT>
+
+</HEAD>
+<BODY>
+<FIELDSET class="labelclass" align="center">
+<LEGEND align="center"> <B> VOLUNTEER'S FORM </B><BR></LEGEND>
+<FORM METHOD="POST" ACTION="volunteer.jsp" onsubmit="return validate()">
+<LABEL FOR="t1">  STUDENT NAME: </LABEL>
+<INPUT TYPE="TEXT" NAME="t1" ID="t1">
+<BR>
+<br>
+<LABEL FOR ="  ID">  STUDENT ID:</LABEL>
+<INPUT TYPE="NUMBER" ID="t2" NAME="t2">
+<BR>
+<br>
+<LABEL FOR="EMAIL"> EMAIL:</LABEL>
+<INPUT TYPE="EMAIL" NAME="t3" ID="t3">
+<BR>
+<br>
+<LABEL FOR= "CONTACT"> CONTACT NO.:</LABEL>
+<INPUT TYPE="NUMBER" ID="t4" NAME="t4">
+<br><br>
+<LABEL FOR= "GENDER"> GENDER:</LABEL>
+<INPUT TYPE="RADIO" VALUE="M" NAME="t6" ID="t6"> MALE
+<INPUT TYPE="RADIO" VALUE="F" NAME="t6" ID="t7"> FEMALE
+<br>
+<br>
+<LABEL FOR="LANGUAGES"> INTERESTED AREAS FOR VOLUNTEERING:</LABEL>
+<BR>
+<br>
+<INPUT TYPE="RADIO" VALUE="FOOD" NAME="t7" ID="t15"> FOOD ARRANGEMENTS<br>
+<INPUT TYPE="RADIO" VALUE="DPL" NAME="t7" ID="t7"> TAKING CHARGE OF DISCIPLINE<br>
+<INPUT TYPE="RADIO" VALUE="GUEST" NAME="t7" ID="t12"> MANAGING GUESTS<br>
+<INPUT TYPE="RADIO" VALUE="PRIZEDIS" NAME="t7" ID="t13"> PRIZE DISTRIBUTION ARRANGEMENTS
+<BR>
+<br>
+<LABEL FOR= "COLLEGE"> COLLEGE:</LABEL>
+<SELECT NAME="COLLEGE" NAME="t8" ID="t8">
+<OPTION VALUE="UCER"> UCER </OPTION>
+<OPTION VALUE="UCEM"> UCEM </OPTION>
+<OPTION VALUE="UIM"> UIM </OPTION>
+<OPTION VALUE="UIP"> UIP </OPTION>
+</SELECT>
+<BR>
+<br>
+<INPUT TYPE="SUBMIT"  NAME="SUBMIT" id="SUBMIT" value="APPLY" >
+<INPUT TYPE="RESET"  NAME="RESET" id="RESET" value="REFRESH" >
+</FORM>
+</FIELDSET>
+</BODY>
+</HTML>

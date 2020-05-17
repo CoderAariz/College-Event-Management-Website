@@ -1,0 +1,62 @@
+* {box-sizing: border-box}
+.labelclass{
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 20px;
+    width:1000px;
+    border: 12px solid rgb(131, 127, 131);
+    margin: auto;
+}
+legend{
+    font-size: xx-large;
+    color: rgb(226, 224, 224);
+    font-family: cursive;
+}
+#SUBMIT{
+    background-color: black;
+    color: white;
+}
+#RESET{
+    background-color: black;
+    color:white;
+}
+body{
+    background-image: url('images/homepage.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:0px;
+    padding: 0px;
+}
+.foot
+{
+    text-align: center;
+    color: white;
+    background-color:  #f9c449;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    height:200px;
+}
+.fb
+{
+    height: 60px;
+    border-radius: 50px;
+}
+footer>h6
+{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer>h5
+{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer>p
+{
+    color:white;
+    font-size: 20px;
+    font-family: Georgia;;
+}

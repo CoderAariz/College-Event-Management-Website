@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="organizeevent.css" type="text/css" rel="stylesheet">
+        <script language="javascript" type="text/javascript">
+            function show()
+            {
+                var branch='<label for="branch" id="branchlabel">Branch:</label><select name="branch" id="branch"><option value="">------Branch--------</option><option value="cs">Computer Science</option><option value="it">Information Technology</option><option value="ec">Electronics</option><option value="me">Mechanical</option><option value="cl">Civil</option><option value="el">Electrical</option></select><br>'
+                document.getElementById('branchdiv').innerHTML=branch;
+            }
+        </script>
+    </head>
+    <body>
+        <div style="height:800px; margin-top:200px;" class="sdetail">
+            <form action="organiseeventmail.jsp" method="post">
+                <fieldset class="field">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name"><br>
+                    <label for="college">College:</label>
+                    <select name="college" id="college">
+                        <option value="">--------College--------</option>
+                        <option value="ucer" onclick="show()">UCER</option>
+                        <option value="ucem" onclick="show()">UCEM</option>
+                        <option value="uit" onclick="show()">UIT</option>
+                        <option value="mba">UIM-MBA</option>
+                        <option value="bca">UIM-BCA</option>
+                        <option value="mca">UIM-MCA</option>
+                        <option value="bba">UIM-BBA</option>
+                    </select><br>
+                    <div id="branchdiv"></div>
+                    <label for="year">Year:</label>
+                    <input type="number" name="year" id="year"><br>
+                    <label for="id">College ID:</label>
+                    <input type="text" name="id" id="id"><br>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email"><br>
+                    <label for="contact">Contact:</label>
+                    <input type="text" name="contact" id="contact"><br>
+                    <label for="ename">Event Name:</label>
+                    <input type="text" name="ename" id="ename"><br>
+                    <label for="edescription">Event Description:</label>
+                    <textarea name="edescription" id="edescription" style="height: 200px;"></textarea><br>
+                </fieldset>
+                <div class="submit" style="height: 100px;">
+                    <input type="submit" value="SEND">
+                </div>
+            </form>
+        </div>
+        <div>
+            <footer class="foot">
+                <br>
+                <p>You can follow us on...</p>
+                <a href="https://www.facebook.com"><img src="images/facebook.png" class="fb"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://www.facebook.com"><img src="images/instagram.jpg" class="fb"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <br>
+                <h6>All Rights Reserved.</h6>
+            </footer>
+        </div>
+    </body>
+</html>
